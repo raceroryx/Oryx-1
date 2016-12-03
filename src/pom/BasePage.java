@@ -13,6 +13,10 @@ public abstract class BasePage {
 	}
 	
 	public void verifyTitle(String eTitle){
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+		}
 		String aTitle=driver.getTitle();
 		Assert.assertEquals(aTitle, eTitle);
 	}
