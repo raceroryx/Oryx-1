@@ -1,17 +1,27 @@
 package script;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 public abstract class BaseTest implements AutoConst{
  public WebDriver driver;
-	
+ @Parameters({"remoteURL","browser"})	
  @BeforeMethod
- public void preCondition(){
-  driver=new FirefoxDriver();
+ public void preCondition(String remoteURL,String browser) throws MalformedURLException{
+  URL ra=new URL(remoteURL);
+  DesiredCapabilities dc=new DesiredCapabilities();
+  dc.setBrowserName(browser);
+  driver=new RemoteWebDriver(ra,dc);
   driver.get("http://localhost");
   driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
  }
