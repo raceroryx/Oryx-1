@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="remoteURL" value="http://127.0.0.1:4444/wd/hub"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="TestFF">
+    <parameter name="remoteURL" value="http://127.0.0.1:4444/wd/hub"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="script.ValidLoginLogout"/>
+      <class name="script.InvalidLogin"/>
+      <class name="script.VerifyProductVersion"/>
+    </classes>
+  </test> <!-- TestFF -->
+  <test name="TestGC">
+    <parameter name="remoteURL" value="http://127.0.0.1:4444/wd/hub"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="script.ValidLoginLogout"/>
+      <class name="script.InvalidLogin"/>
+      <class name="script.VerifyProductVersion"/>
+    </classes>
+  </test> <!-- TestGC -->
+  <test name="TestGC(failed)" parallel="tests">
+    <parameter name="remoteURL" value="http://127.0.0.1:4444/wd/hub"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="script.InvalidLogin">
+        <methods>
+          <include name="postCondition"/>
+          <include name="postCondition"/>
+          <include name="testInvalidLogin"/>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- script.InvalidLogin -->
+      <class name="script.ValidLoginLogout">
+        <methods>
+          <include name="postCondition"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- script.ValidLoginLogout -->
+      <class name="script.VerifyProductVersion">
+        <methods>
+          <include name="postCondition"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- script.VerifyProductVersion -->
+    </classes>
+  </test> <!-- TestGC(failed) -->
+</suite> <!-- Failed suite [Suite] -->

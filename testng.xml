@@ -1,0 +1,10 @@
+<suite name="Suite" parallel="none">
+  <test name="TestFF">
+ <parameter name="remoteURL" value="http://127.0.0.1:4444/wd/hub"/>
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="script.ValidLoginLogout"/>
+    </classes>
+  </test>
+
+</suite>
