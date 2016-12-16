@@ -2,12 +2,92 @@
 <testng-results skipped="0" failed="1" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="42803" started-at="2016-12-04T05:18:03Z" finished-at="2016-12-04T05:18:46Z">
+  <suite name="Suite" duration-ms="111597" started-at="2016-12-16T12:56:19Z" finished-at="2016-12-16T12:58:10Z">
     <groups>
     </groups>
-    <test name="TestGC" duration-ms="37490" started-at="2016-12-04T05:18:03Z" finished-at="2016-12-04T05:18:41Z">
+    <test name="TestFF" duration-ms="111597" started-at="2016-12-16T12:56:19Z" finished-at="2016-12-16T12:58:10Z">
+      <class name="script.ValidLoginLogout">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:script.ValidLoginLogout@6442b0a6]" name="preCondition" is-config="true" duration-ms="52483" started-at="2016-12-16T18:26:19Z" finished-at="2016-12-16T18:27:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:0, instance:script.ValidLoginLogout@6442b0a6]" name="testValidLoginLogout" duration-ms="25406" started-at="2016-12-16T18:27:11Z" finished-at="2016-12-16T18:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.ValidLoginLogout@6442b0a6]" name="postCondition" is-config="true" duration-ms="31" started-at="2016-12-16T18:27:37Z" finished-at="2016-12-16T18:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- script.ValidLoginLogout -->
       <class name="script.InvalidLogin">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:script.InvalidLogin@179a4c9]" name="preCondition" is-config="true" duration-ms="5325" started-at="2016-12-04T10:48:18Z" finished-at="2016-12-04T10:48:24Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:script.InvalidLogin@60f82f98]" name="preCondition" is-config="true" duration-ms="8154" started-at="2016-12-16T18:27:37Z" finished-at="2016-12-16T18:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:script.InvalidLogin@60f82f98]" name="testInvalidLogin" duration-ms="7541" started-at="2016-12-16T18:27:45Z" finished-at="2016-12-16T18:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.InvalidLogin@60f82f98]" name="postCondition" is-config="true" duration-ms="18" started-at="2016-12-16T18:27:52Z" finished-at="2016-12-16T18:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- script.InvalidLogin -->
+      <class name="script.VerifyProductVersion">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:script.VerifyProductVersion@35f983a6]" name="preCondition" is-config="true" duration-ms="12836" started-at="2016-12-16T18:27:52Z" finished-at="2016-12-16T18:28:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyProductVersion()[pri:0, instance:script.VerifyProductVersion@35f983a6]" name="testVerifyProductVersion" duration-ms="4781" started-at="2016-12-16T18:28:05Z" finished-at="2016-12-16T18:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyProductVersion -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.VerifyProductVersion@35f983a6]" name="postCondition" is-config="true" duration-ms="21" started-at="2016-12-16T18:28:10Z" finished-at="2016-12-16T18:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- script.VerifyProductVersion -->
+    </test> <!-- TestFF -->
+    <test name="TestGC" duration-ms="111597" started-at="2016-12-16T12:56:19Z" finished-at="2016-12-16T12:58:10Z">
+      <class name="script.ValidLoginLogout">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:script.ValidLoginLogout@42d3bd8b]" name="preCondition" is-config="true" duration-ms="54195" started-at="2016-12-16T18:26:19Z" finished-at="2016-12-16T18:27:13Z">
           <params>
             <param index="0">
               <value>
@@ -23,66 +103,92 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="FAIL" signature="testInvalidLogin()[pri:0, instance:script.InvalidLogin@179a4c9]" name="testInvalidLogin" duration-ms="1474" started-at="2016-12-04T10:48:24Z" finished-at="2016-12-04T10:48:25Z">
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:0, instance:script.ValidLoginLogout@42d3bd8b]" name="testValidLoginLogout" duration-ms="26260" started-at="2016-12-16T18:27:13Z" finished-at="2016-12-16T18:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.ValidLoginLogout@42d3bd8b]" name="postCondition" is-config="true" duration-ms="873" started-at="2016-12-16T18:27:39Z" finished-at="2016-12-16T18:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- script.ValidLoginLogout -->
+      <class name="script.InvalidLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:script.InvalidLogin@26ba2a48]" name="preCondition" is-config="true" duration-ms="6456" started-at="2016-12-16T18:27:40Z" finished-at="2016-12-16T18:27:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="testInvalidLogin()[pri:0, instance:script.InvalidLogin@26ba2a48]" name="testInvalidLogin" duration-ms="9067" started-at="2016-12-16T18:27:47Z" finished-at="2016-12-16T18:27:56Z">
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=54.0.2840.99)
+  (Session info: chrome=55.0.2883.87)
   (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
+Command duration or timeout: 178 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
 System info: host: 'JSP-TRA-30-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir4068_21210}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3a9d5147b79820d8a84875520cfed7c5
-Command duration or timeout: 166 milliseconds
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1420_3226}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d64703ab51521f5e67844336babfe202
+Command duration or timeout: 4.27 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'JSP-TRA-30-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
-Session ID: ae95f6a1-4604-428c-98d4-968592f37eb7
+System info: host: 'JSP-TRA-30-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{platform=XP, javascriptEnabled=true, acceptSslCerts=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir4068_21210, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=ae95f6a1-4604-428c-98d4-968592f37eb7, pageLoadStrategy=normal, version=54.0.2840.99, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1420_3226}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=92c567b7-2060-4993-9514-68994c083ebc, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 92c567b7-2060-4993-9514-68994c083ebc]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=54.0.2840.99)
+  (Session info: chrome=55.0.2883.87)
   (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
+Command duration or timeout: 178 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
 System info: host: 'JSP-TRA-30-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir4068_21210}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3a9d5147b79820d8a84875520cfed7c5
-Command duration or timeout: 166 milliseconds
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1420_3226}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d64703ab51521f5e67844336babfe202
+Command duration or timeout: 4.27 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'JSP-TRA-30-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
-Session ID: ae95f6a1-4604-428c-98d4-968592f37eb7
+System info: host: 'JSP-TRA-30-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{platform=XP, javascriptEnabled=true, acceptSslCerts=true, browserName=chrome, chrome={userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir4068_21210, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, webdriver.remote.sessionid=ae95f6a1-4604-428c-98d4-968592f37eb7, pageLoadStrategy=normal, version=54.0.2840.99, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1420_3226}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=92c567b7-2060-4993-9514-68994c083ebc, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 92c567b7-2060-4993-9514-68994c083ebc
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
 	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:368)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy7.isDisplayed(Unknown Source)
 	at pom.LoginPage.verifyErrMsgDisplayed(LoginPage.java:40)
 	at script.InvalidLogin.testInvalidLogin(InvalidLogin.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
@@ -95,30 +201,29 @@ Capabilities [{platform=XP, javascriptEnabled=true, acceptSslCerts=true, browser
 	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
 	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
 Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'JSP-TRA-30-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
+System info: host: 'JSP-TRA-30-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
-	... 32 more
+	... 31 more
 Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=54.0.2840.99)
+  (Session info: chrome=55.0.2883.87)
   (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
+Command duration or timeout: 178 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
 System info: host: 'JSP-TRA-30-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir4068_21210}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 3a9d5147b79820d8a84875520cfed7c5
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1420_3226}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d64703ab51521f5e67844336babfe202
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'JSP-TRA-30-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_21'
+System info: host: 'JSP-TRA-30-PC', ip: '192.168.1.194', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_20'
 Driver info: driver.version: RemoteWebDriver
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -129,35 +234,39 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
 	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:368)
-	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
-	at com.sun.proxy.$Proxy2.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy3.isDisplayed(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:389)
-	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
-	at com.sun.proxy.$Proxy3.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy4.isDisplayed(Unknown Source)
 	at org.openqa.selenium.remote.server.handler.GetElementDisplayed.call(GetElementDisplayed.java:32)
 	at org.openqa.selenium.remote.server.handler.GetElementDisplayed.call(GetElementDisplayed.java:1)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	... 3 more
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.InvalidLogin@179a4c9]" name="postCondition" is-config="true" duration-ms="2404" started-at="2016-12-04T10:48:25Z" finished-at="2016-12-04T10:48:28Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.InvalidLogin@26ba2a48]" name="postCondition" is-config="true" duration-ms="234" started-at="2016-12-16T18:27:56Z" finished-at="2016-12-16T18:27:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
       </class> <!-- script.InvalidLogin -->
       <class name="script.VerifyProductVersion">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:script.VerifyProductVersion@131b810]" name="preCondition" is-config="true" duration-ms="6731" started-at="2016-12-04T10:48:28Z" finished-at="2016-12-04T10:48:34Z">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:script.VerifyProductVersion@5f2050f6]" name="preCondition" is-config="true" duration-ms="5877" started-at="2016-12-16T18:27:56Z" finished-at="2016-12-16T18:28:02Z">
           <params>
             <param index="0">
               <value>
@@ -173,121 +282,15 @@ Driver info: driver.version: RemoteWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testVerifyProductVersion()[pri:0, instance:script.VerifyProductVersion@131b810]" name="testVerifyProductVersion" duration-ms="4028" started-at="2016-12-04T10:48:34Z" finished-at="2016-12-04T10:48:38Z">
+        <test-method status="PASS" signature="testVerifyProductVersion()[pri:0, instance:script.VerifyProductVersion@5f2050f6]" name="testVerifyProductVersion" duration-ms="8051" started-at="2016-12-16T18:28:02Z" finished-at="2016-12-16T18:28:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyProductVersion -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.VerifyProductVersion@131b810]" name="postCondition" is-config="true" duration-ms="2344" started-at="2016-12-04T10:48:38Z" finished-at="2016-12-04T10:48:41Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.VerifyProductVersion@5f2050f6]" name="postCondition" is-config="true" duration-ms="454" started-at="2016-12-16T18:28:10Z" finished-at="2016-12-16T18:28:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
       </class> <!-- script.VerifyProductVersion -->
-      <class name="script.ValidLoginLogout">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:script.ValidLoginLogout@13cc05f]" name="preCondition" is-config="true" duration-ms="4761" started-at="2016-12-04T10:48:03Z" finished-at="2016-12-04T10:48:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testValidLoginLogout()[pri:0, instance:script.ValidLoginLogout@13cc05f]" name="testValidLoginLogout" duration-ms="8044" started-at="2016-12-04T10:48:08Z" finished-at="2016-12-04T10:48:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidLoginLogout -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.ValidLoginLogout@13cc05f]" name="postCondition" is-config="true" duration-ms="2359" started-at="2016-12-04T10:48:16Z" finished-at="2016-12-04T10:48:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- script.ValidLoginLogout -->
     </test> <!-- TestGC -->
-    <test name="TestFF" duration-ms="42803" started-at="2016-12-04T05:18:03Z" finished-at="2016-12-04T05:18:46Z">
-      <class name="script.InvalidLogin">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:script.InvalidLogin@1202d8a]" name="preCondition" is-config="true" duration-ms="8893" started-at="2016-12-04T10:48:21Z" finished-at="2016-12-04T10:48:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:script.InvalidLogin@1202d8a]" name="testInvalidLogin" duration-ms="6051" started-at="2016-12-04T10:48:30Z" finished-at="2016-12-04T10:48:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.InvalidLogin@1202d8a]" name="postCondition" is-config="true" duration-ms="78" started-at="2016-12-04T10:48:36Z" finished-at="2016-12-04T10:48:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- script.InvalidLogin -->
-      <class name="script.VerifyProductVersion">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:script.VerifyProductVersion@18df2e4]" name="preCondition" is-config="true" duration-ms="6976" started-at="2016-12-04T10:48:36Z" finished-at="2016-12-04T10:48:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testVerifyProductVersion()[pri:0, instance:script.VerifyProductVersion@18df2e4]" name="testVerifyProductVersion" duration-ms="2858" started-at="2016-12-04T10:48:43Z" finished-at="2016-12-04T10:48:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyProductVersion -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.VerifyProductVersion@18df2e4]" name="postCondition" is-config="true" duration-ms="15" started-at="2016-12-04T10:48:46Z" finished-at="2016-12-04T10:48:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- script.VerifyProductVersion -->
-      <class name="script.ValidLoginLogout">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:script.ValidLoginLogout@123fab3]" name="preCondition" is-config="true" duration-ms="10343" started-at="2016-12-04T10:48:03Z" finished-at="2016-12-04T10:48:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://127.0.0.1:4444/wd/hub]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testValidLoginLogout()[pri:0, instance:script.ValidLoginLogout@123fab3]" name="testValidLoginLogout" duration-ms="7567" started-at="2016-12-04T10:48:14Z" finished-at="2016-12-04T10:48:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidLoginLogout -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.ValidLoginLogout@123fab3]" name="postCondition" is-config="true" duration-ms="18" started-at="2016-12-04T10:48:21Z" finished-at="2016-12-04T10:48:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- script.ValidLoginLogout -->
-    </test> <!-- TestFF -->
   </suite> <!-- Suite -->
 </testng-results>

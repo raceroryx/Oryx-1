@@ -1,10 +1,20 @@
-<suite name="Suite" parallel="none">
+<suite name="Suite" parallel="tests">
   <test name="TestFF">
  <parameter name="remoteURL" value="http://127.0.0.1:4444/wd/hub"/>
   <parameter name="browser" value="firefox"/>
     <classes>
       <class name="script.ValidLoginLogout"/>
+      <class name="script.InvalidLogin"/>
+      <class name="script.VerifyProductVersion"/>
     </classes>
   </test>
-
+ <test name="TestGC">
+ <parameter name="remoteURL" value="http://127.0.0.1:4444/wd/hub"/>
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="script.ValidLoginLogout"/>
+      <class name="script.InvalidLogin"/>
+      <class name="script.VerifyProductVersion"/>
+    </classes>
+  </test>
 </suite>

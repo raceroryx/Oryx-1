@@ -35,7 +35,7 @@ public class LoginPage extends BasePage {
 	public void clickLogin(){
 		loginButton.click();
 	}
-	//
+	
 	public void verifyErrMsgDisplayed(){
 		Assert.assertTrue(errMsg.isDisplayed());
 	}
